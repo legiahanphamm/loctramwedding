@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BlostaScript";
+  src: local("Blosta Script"), url("/fonts/BlostaScript.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-SemiBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina/Faustina-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DaisybudScript";
+  src: url("/fonts/DaisybudScript.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Perandory SemCond";
+  src: url("/fonts/Perandory.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: "Faustina", serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-script {
+  font-family: "BlostaScript", cursive;
+}
+
+.font-daisybud {
+  font-family: "DaisybudScript", cursive;
+}
+
+p {
+  font-family: "Faustina", serif;
+}
+
+.font-timeline-title {
+  font-family: "Perandory SemCond", serif;
+  font-weight: 400;
+}
