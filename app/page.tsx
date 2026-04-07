@@ -46,14 +46,24 @@ export default function Home() {
           <source src="/videos/background.mp4" type="video/mp4" />
         </video>
 
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/30" />
 
-        <div className="relative z-10 text-center px-6 pt-14 sm:pt-16">
-          <p className="font-serif tracking-[0.35em] sm:tracking-[0.6em] text-xs sm:text-sm mb-12 sm:mb-25">
+        <div className="relative z-10 text-center px-6 pt-6 sm:pt-12 md:pt-10 lg:pt-6">
+          <div className="mx-auto mb-6 w-20 sm:mb-8 sm:w-24">
+            <Image
+              src="/logo/TRẮNG.png"
+              alt="Wedding logo"
+              width={300}
+              height={300}
+              className="h-full w-full"
+            />
+          </div>
+
+          <p className="font-serif tracking-[0.35em] sm:tracking-[0.6em] lg:text-[1.2em] text-[0.8em] sm:text-[0.8em] mb-12 sm:mb-25">
             THE WEDDING OF
           </p>
 
-          <h1 className="text-[clamp(40px,11vw,120px)] leading-[0.9] font-script mb-10 sm:mb-20 flex items-end justify-center gap-[0.2em] md:gap-[0.5em]">
+          <h1 className="text-[clamp(40px,11vw,120px)] leading-[0.9] font-script mb-12 sm:mb-20 flex items-end justify-center gap-[0.2em] md:gap-[0.5em]">
             <span className="inline-flex items-end mr-[1em] sm:mr-[0.8em] md:mr-[1em]">
               <span className="text-[1.35em] leading-[0.8]">L</span>
               <span>oc</span>
@@ -62,7 +72,7 @@ export default function Home() {
             <span>Tram</span>
           </h1>
 
-          <p className="font-serif mt-4 sm:mt-6 tracking-[0.25em] sm:tracking-[0.6em] text-xs sm:text-sm">
+          <p className="font-serif mt-6 sm:mt-8 tracking-[0.25em] sm:tracking-[0.6em] lg:text-[1.2em] text-[0.8em] sm:text-[0.8em]">
             16.05.2026 — NOMIA GARDEN RETREATS
           </p>
         </div>
@@ -75,7 +85,7 @@ export default function Home() {
             Welcome
           </h1>
 
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.7em] sm:text-[1em] max-w-4xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 lg:text-[1em] text-[0.7em] sm:text-[0.7em] max-w-4xl mx-auto">
             CHÀO MỪNG BẠN ĐẾN VỚI LỄ CƯỚI CỦA LỘC & TRÂM.
             <br />
             TẠI ĐÂY, BẠN SẼ TÌM THẤY MỌI THÔNG TIN
@@ -83,7 +93,7 @@ export default function Home() {
             CẦN THIẾT CHO NGÀY ĐẶC BIỆT NÀY.
           </p>
 
-          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.7em] sm:text-[1em] max-w-4xl mx-auto">
+          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-8 sm:leading-8 lg:text-[1em] text-[0.7em] sm:text-[0.7em] max-w-4xl mx-auto">
             WELCOME TO LOC & TRAM’S WEDDING.
             <br />
             HERE, YOU’LL FIND EVERYTHING YOU NEED<br/>FOR THIS SPECIAL DAY.
@@ -200,12 +210,12 @@ export default function Home() {
 
           <div className="mt-10 sm:mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
             <div className="text-center lg:text-left ">
-              <p className="font-serif tracking-[0.08em] leading-6 text-[clamp(11px,1.5vw,14px)]">
+              <p className="font-serif tracking-[0.08em] leading-6 text-[clamp(11px,1.5vw,16px)]">
                 Chỉ cách Sài Gòn chưa đến 70km, Nomia Garden Retreats là khu nghỉ dưỡng tuyệt đẹp nằm bên cạnh Hồ Trị An,
                 nơi đây lưu giữ vẻ đẹp hoang sơ của thiên nhiên ban tặng kết hợp với sự tinh tế khéo léo từ bàn tay con người.
               </p>
 
-              <p className="font-serif italic mt-6 sm:mt-8 tracking-[0.06em] leading-6 text-[clamp(11px,1.5vw,14px)]">
+              <p className="font-serif italic mt-10 sm:mt-12 tracking-[0.08em] leading-6 text-[clamp(11px,1.5vw,16px)]">
                 Located less than 70km from Saigon, Nomia Garden Retreats is a stunning resort situated beside Tri An Lake.
                 It preserves the pristine beauty bestowed by nature, combined with the refined craftsmanship of human hands.
               </p>
@@ -225,18 +235,17 @@ export default function Home() {
       </section>
 
       {/* OUR STORY */}
-      <section className="min-h-screen bg-[#f4f2ec] text-[#19140f] py-5 sm:py-8 flex flex-col items-stretch">
-        
-        <div className="mx-auto mt-12 sm:mt-15 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
-          <h1 className="text-[clamp(60px,10vw,120px)] leading-[0.92] font-script mb-15 sm:mb-20">
+      <section className="min-h-screen bg-[#f4f2ec] text-[#19140f] flex flex-col items-stretch">
+        <div className="mx-auto mt-20 sm:mt-25 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
+          <h1 className="text-[clamp(60px,10vw,120px)] leading-[0.9] font-script lg:mb-33 mb-15 sm:mb-20">
             Our Story
           </h1>
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif lg:mt-10 mt-4 sm:mt-6 italic lg:tracking-widest tracking-[0.08em] sm:tracking-[0.15em] lg:leading-7 leading-5 sm:leading-6 lg:text-[1.6em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Lộc & Trâm không bắt đầu bằng điều gì quá đặc biệt,
             <br />
             chỉ là hai người bước vào cuộc đời nhau đúng lúc.
           </p>
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif lg:mt-10 mt-4 sm:mt-6 italic lg:tracking-widest tracking-[0.08em] sm:tracking-[0.15em] lg:leading-7 leading-5 sm:leading-6 lg:text-[1.6em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Loc & Tram didn’t begin with anything extraordinary,
             <br />
             just two people who came into each other’s lives
@@ -256,10 +265,10 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-5 sm:mt-8 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-6 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif lg:mt-10 mt-4 sm:mt-6 italic lg:tracking-widest tracking-[0.08em] sm:tracking-[0.15em] lg:leading-7 leading-5 sm:leading-6 lg:text-[1.6em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Từng ngày trôi qua, họ nhận ra: bình yên nhất là khi có nhau.
           </p>
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif lg:mt-10 mt-4 sm:mt-6 italic lg:tracking-widest tracking-[0.08em] sm:tracking-[0.15em] lg:leading-7 leading-5 sm:leading-6 lg:text-[1.6em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             As the days went by, they realized that the greatest peace is simply having one another.
           </p>
         </div>
@@ -275,13 +284,13 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-5 sm:mt-8 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-6 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif lg:mt-10 mt-4 sm:mt-6 italic lg:tracking-widest tracking-[0.08em] sm:tracking-[0.15em] lg:leading-7 leading-5 sm:leading-6 lg:text-[1.6em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Và thế là, họ quyết định cùng nhau đi xa hơn,
             <br />
             không chỉ là hôm nay, mà là mãi về sau.
           </p>
 
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif lg:mb-10 mb-4 sm:mb-6 lg:mt-10 mt-4 sm:mt-6 italic lg:tracking-widest tracking-[0.08em] sm:tracking-[0.15em] lg:leading-7 leading-5 sm:leading-6 lg:text-[1.6em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             And so, they chose to go further together,
             <br />
             not just for today, but for all the days to come.
@@ -292,7 +301,7 @@ export default function Home() {
 
       {/* GETTING MARRIED */}
       <section className="min-h-screen bg-[#f4f2ec] text-[#19140f] flex flex-col items-stretch">
-      <div className="mx-auto bg-[#3a2c22] text-white sm:mt-20 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
+      <div className="mx-auto bg-[#3a2c22] text-white sm:mt-20 w-full px-5 text-center sm:px-8 md:px-10">
         <h1 className="text-[clamp(40px,10vw,80px)] leading-[0.92] font-script mt-16 sm:mt-20 mb-16 sm:mb-20 flex flex-col sm:flex-row items-center justify-center gap-0 sm:gap-[1em]">
           <span className="-ml-30 sm:-ml-40">We are</span>
           <span className="mt-1 sm:mt-3 ml-20 sm:ml-30">getting married!</span>
@@ -315,6 +324,15 @@ export default function Home() {
             <br />
             16.05.2026
           </p>
+          <div className="mx-auto mt-10 sm:mt-14 mb-2 w-20 sm:mb-6 sm:w-24">
+            <Image
+              src="/logo/ĐEN.png"
+              alt="Wedding logo"
+              width={300}
+              height={300}
+              className="h-full w-full"
+            />
+          </div>
         </div>
       </section>
 
