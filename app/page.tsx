@@ -124,7 +124,7 @@ export default function Home() {
 
               <div className="lg:mb-[8%] mb-[6%] w-full max-w-[96%] sm:max-w-[84%] leading-4 lg:max-w-[80%] rounded-2xl sm:rounded-[20px] bg-white/10 px-3 py-2 text-center text-black backdrop-blur-[2px] sm:px-6 sm:py-4 lg:px-8 lg:py-5">
                 <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[0.8em] sm:text-[0.8em] sm:tracking-[0.08em] lg:tracking-widest">
-                  XIN VUI LÒNG PHẢN HỒI TRƯỚC 9PM (05/05/20260)
+                  XIN VUI LÒNG PHẢN HỒI TRƯỚC 9PM (05/05/2026)
                 </p>
                 <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[0.8em] sm:text-[0.8em] sm:tracking-[0.08em] lg:tracking-widest">
                   BẰNG CÁCH SỬ DỤNG LIÊN KẾT RSVP ĐƯỢC CUNG CẤP TẠI <a href="https://loctramwedding.fillout.com/rsvp" target="_blank" rel="noreferrer" className="font-bold underline underline-offset-2">
