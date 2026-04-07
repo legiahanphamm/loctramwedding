@@ -78,7 +78,9 @@ export default function Home() {
           <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.7em] sm:text-[1em] max-w-4xl mx-auto">
             CHÀO MỪNG BẠN ĐẾN VỚI LỄ CƯỚI CỦA LỘC & TRÂM.
             <br />
-            TẠI ĐÂY, BẠN SẼ TÌM THẤY MỌI THÔNG TIN CẦN THIẾT<br/>CHO NGÀY ĐẶC BIỆT NÀY.
+            TẠI ĐÂY, BẠN SẼ TÌM THẤY MỌI THÔNG TIN
+            <br/>
+            CẦN THIẾT CHO NGÀY ĐẶC BIỆT NÀY.
           </p>
 
           <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.7em] sm:text-[1em] max-w-4xl mx-auto">
@@ -241,7 +243,9 @@ export default function Home() {
           <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Loc & Tram didn’t begin with anything extraordinary,
             <br />
-            just two people who came into each other’s lives at the right time.
+            just two people who came into each other’s lives
+            <br />
+            at the right time.
           </p>
         </div>
 
