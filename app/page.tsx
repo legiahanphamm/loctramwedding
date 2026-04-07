@@ -75,13 +75,13 @@ export default function Home() {
             Welcome
           </h1>
 
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.7em] sm:text-[1em] max-w-4xl mx-auto">
             CHÀO MỪNG BẠN ĐẾN VỚI LỄ CƯỚI CỦA LỘC & TRÂM.
             <br />
             TẠI ĐÂY, BẠN SẼ TÌM THẤY MỌI THÔNG TIN CẦN THIẾT<br/>CHO NGÀY ĐẶC BIỆT NÀY.
           </p>
 
-          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.7em] sm:text-[1em] max-w-4xl mx-auto">
             WELCOME TO LOC & TRAM’S WEDDING.
             <br />
             HERE, YOU’LL FIND EVERYTHING YOU NEED<br/>FOR THIS SPECIAL DAY.
@@ -141,8 +141,19 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="relative w-full">
+        <Image
+          src="/prewedding/7.png"
+          alt="Loc&Tram"
+          width={853}
+          height={1280}
+          className="block w-full h-auto"
+        />
+      </div>
+
       {/* TIMELINE */}
-      <section className="bg-[#f4f2ec] text-[#19140f] mt-20 sm:mt-24 py-24 sm:py-35 px-4 sm:px-8 md:px-10">
+      <section className="bg-[#f4f2ec] text-[#19140f] py-24 sm:py-35 px-4 sm:px-8 md:px-10">
         <div className="text-center mx-auto max-w-6xl">
           <h1 className="text-[clamp(55px,12vw,96px)] leading-[0.92] font-script mb-18 sm:mb-30 flex flex-col sm:flex-row items-center justify-center gap-0 sm:gap-[1em]">
             <span className="-ml-15 sm:-ml-20">Wedding</span>
@@ -214,16 +225,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
-      <div className="relative mt-10 w-full sm:mt-14">
-        <Image
-          src="/prewedding/7.png"
-          alt="Loc&Tram"
-          width={853}
-          height={1280}
-          className="block w-full h-auto"
-        />
-      </div>
 
       {/* OUR STORY */}
       <section className="min-h-screen bg-[#f4f2ec] text-[#19140f] py-5 sm:py-8 flex flex-col items-stretch">
@@ -232,12 +233,12 @@ export default function Home() {
           <h1 className="text-[clamp(60px,10vw,120px)] leading-[0.92] font-script mb-15 sm:mb-20">
             Our Story
           </h1>
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Lộc & Trâm không bắt đầu bằng điều gì quá đặc biệt,
             <br />
             chỉ là hai người bước vào cuộc đời nhau đúng lúc.
           </p>
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Loc & Tram didn’t begin with anything extraordinary,
             <br />
             just two people who came into each other’s lives at the right time.
@@ -255,10 +256,10 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-5 sm:mt-8 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-6 sm:leading-6 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-6 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Từng ngày trôi qua, họ nhận ra: bình yên nhất là khi có nhau.
           </p>
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             As the days went by, they realized that the greatest peace is simply having one another.
           </p>
         </div>
@@ -274,13 +275,13 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-5 sm:mt-8 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-6 sm:leading-6 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-6 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             Và thế là, họ quyết định cùng nhau đi xa hơn,
             <br />
             không chỉ là hôm nay, mà là mãi về sau.
           </p>
 
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-5 sm:leading-6 lg:text-[1.2em] text-[0.7em] sm:text-[0.9em] max-w-4xl mx-auto">
             And so, they chose to go further together,
             <br />
             not just for today, but for all the days to come.
