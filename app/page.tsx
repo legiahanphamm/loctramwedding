@@ -70,18 +70,18 @@ export default function Home() {
 
       {/* WELCOME */}
       <section className="bg-[#3a2c22] text-white py-10 sm:py-12 px-5 sm:px-10 md:px-20">
-        <div className="text-center mt-20 sm:mt-32 px-3 sm:px-6 max-w-4xl mx-auto">
+        <div className="text-center mt-20 sm:mt-32 px-3 sm:px-6 max-w-6xl mx-auto">
           <h1 className="text-[clamp(60px,10vw,120px)] leading-[0.92] font-script mb-20 sm:mb-20">
             Welcome
           </h1>
 
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 text-[0.8em] sm:text-[0.9em] max-w-3xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-10 sm:leading-10 lg:text-[1.2em] text-[0.9em] sm:text-[0.9em] max-w-4xl mx-auto">
             CHÀO MỪNG ĐẾN VỚI TRANG WEB ĐÁM CƯỚI CỦA TỤI MÌNH.
             <br />
             TẠI ĐÂY, BẠN SẼ TÌM THẤY MỌI THÔNG TIN CẦN THIẾT CHO NGÀY ĐẶC BIỆT CỦA LỘC & TRÂM.
           </p>
 
-          <p className="font-serif mt-4 sm:mt-6 italic tracking-[0.08em] sm:tracking-[0.15em] leading-6 sm:leading-8  text-[0.77em] sm:text-[0.9em] max-w-3xl mx-auto">
+          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-10 sm:leading-10 lg:text-[1.2em] text-[0.9em] sm:text-[0.9em] max-w-4xl mx-auto">
             WELCOME TO OUR WEDDING WEBSITE.
             <br />
             HERE, YOU WILL FIND ALL THE ESSENTIAL INFORMATION FOR THE SPECIAL DAY OF LOC & TRAM.
@@ -104,26 +104,26 @@ export default function Home() {
             <div className="absolute inset-0 bg-linear-to-b from-black/10 via-transparent to-black/8" />
 
             <div className="absolute inset-0 flex flex-col items-center justify-between px-3 py-4 sm:px-7 sm:py-8 md:px-10 md:py-10 lg:px-12">
-              <div className="mt-[12%] lg:mt-[20%] sm:mt-[15%] md:mt-[13%] text-center text-black">
-                <h1 className="text-[clamp(36px,6.5vw,100px)] leading-none font-script whitespace-nowrap">
+              <div className="mt-[10%] lg:mt-[15%] sm:mt-[15%] md:mt-[13%] text-center text-black">
+                <h1 className="text-[clamp(40px,7vw,100px)] leading-none font-script whitespace-nowrap">
                   Kindly Respond
                 </h1>
               </div>
 
-              <div className="lg:mb-[9%] mb-[6%] w-full max-w-[96%] sm:max-w-[84%] leading-4 lg:max-w-[80%] rounded-2xl sm:rounded-[20px] bg-white/10 px-3 py-2 text-center text-black backdrop-blur-[2px] sm:px-6 sm:py-4 lg:px-8 lg:py-5">
-                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] sm:tracking-[0.08em] lg:tracking-widest">
+              <div className="lg:mb-[8%] mb-[6%] w-full max-w-[96%] sm:max-w-[84%] leading-4 lg:max-w-[80%] rounded-2xl sm:rounded-[20px] bg-white/10 px-3 py-2 text-center text-black backdrop-blur-[2px] sm:px-6 sm:py-4 lg:px-8 lg:py-5">
+                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
                   XIN VUI LÒNG PHẢN HỒI TRƯỚC 9PM (05/05/20260)
                 </p>
-                <p className="font-serif text-[clamp(8px,1.12vw,22px)] leading-4 lg:leading-12 sm:leading-7 tracking-[0.06em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
                   BẰNG CÁCH SỬ DỤNG LIÊN KẾT RSVP ĐƯỢC CUNG CẤP TẠI <a href="https://loctramwedding.fillout.com/rsvp" target="_blank" rel="noreferrer" className="font-bold underline underline-offset-2">
                     ĐÂY
                   </a>
                 </p>
 
-                <p className="mt-2 sm:mt-6 font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="mt-2 sm:mt-6 font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
                   PLEASE RESPOND BEFORE 9PM (MAY 5TH, 2026)
                 </p>
-                <p className="font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
                   USING RSVP LINK PROVIDED <a href="https://loctramwedding.fillout.com/rsvp" target="_blank" rel="noreferrer" className="font-bold underline underline-offset-2">
                     HERE
                   </a>

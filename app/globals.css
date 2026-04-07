@@ -88,6 +88,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Rokkitt";
+  src: url("/fonts/Rokkitt.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -123,7 +131,7 @@ body {
 }
 
 p {
-  font-family: "Faustina", serif;
+  font-family: "Rokkitt", serif;
 }
 
 .font-timeline-title {
