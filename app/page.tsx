@@ -75,13 +75,13 @@ export default function Home() {
             Welcome
           </h1>
 
-          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-10 sm:leading-10 lg:text-[1.2em] text-[0.9em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif tracking-[0.08em] sm:tracking-[0.12em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
             CHÀO MỪNG ĐẾN VỚI TRANG WEB ĐÁM CƯỚI CỦA TỤI MÌNH.
             <br />
             TẠI ĐÂY, BẠN SẼ TÌM THẤY MỌI THÔNG TIN CẦN THIẾT CHO NGÀY ĐẶC BIỆT CỦA LỘC & TRÂM.
           </p>
 
-          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-10 sm:leading-10 lg:text-[1.2em] text-[0.9em] sm:text-[0.9em] max-w-4xl mx-auto">
+          <p className="font-serif mt-6 sm:mt-12 italic tracking-[0.08em] sm:tracking-[0.15em] leading-8 sm:leading-8 lg:text-[1.2em] text-[0.6em] sm:text-[0.9em] max-w-4xl mx-auto">
             WELCOME TO OUR WEDDING WEBSITE.
             <br />
             HERE, YOU WILL FIND ALL THE ESSENTIAL INFORMATION FOR THE SPECIAL DAY OF LOC & TRAM.
@@ -111,19 +111,19 @@ export default function Home() {
               </div>
 
               <div className="lg:mb-[8%] mb-[6%] w-full max-w-[96%] sm:max-w-[84%] leading-4 lg:max-w-[80%] rounded-2xl sm:rounded-[20px] bg-white/10 px-3 py-2 text-center text-black backdrop-blur-[2px] sm:px-6 sm:py-4 lg:px-8 lg:py-5">
-                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[0.8em] sm:text-[0.8em] sm:tracking-[0.08em] lg:tracking-widest">
                   XIN VUI LÒNG PHẢN HỒI TRƯỚC 9PM (05/05/20260)
                 </p>
-                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="font-serif text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[0.8em] sm:text-[0.8em] sm:tracking-[0.08em] lg:tracking-widest">
                   BẰNG CÁCH SỬ DỤNG LIÊN KẾT RSVP ĐƯỢC CUNG CẤP TẠI <a href="https://loctramwedding.fillout.com/rsvp" target="_blank" rel="noreferrer" className="font-bold underline underline-offset-2">
                     ĐÂY
                   </a>
                 </p>
 
-                <p className="mt-2 sm:mt-6 font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="mt-2 sm:mt-6 font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[0.8em] sm:text-[0.8em] sm:tracking-[0.08em] lg:tracking-widest">
                   PLEASE RESPOND BEFORE 9PM (MAY 5TH, 2026)
                 </p>
-                <p className="font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[1em] sm:text-[0.9em] sm:tracking-[0.08em] lg:tracking-widest">
+                <p className="font-serif italic text-[clamp(8px,1.12vw,22px)] lg:leading-12 sm:leading-7 tracking-[0.06em] lg:text-[1.1em] text-[0.8em] sm:text-[0.8em] sm:tracking-[0.08em] lg:tracking-widest">
                   USING RSVP LINK PROVIDED <a href="https://loctramwedding.fillout.com/rsvp" target="_blank" rel="noreferrer" className="font-bold underline underline-offset-2">
                     HERE
                   </a>
@@ -186,15 +186,15 @@ export default function Home() {
           </p>
 
           <div className="mt-10 sm:mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
-            <div className="text-center lg:text-left">
-              <p className="font-serif tracking-[0.08em] leading-8 text-[clamp(13px,1.5vw,16px)] uppercase">
+            <div className="text-center lg:text-left ">
+              <p className="font-serif tracking-[0.08em] leading-10 text-[clamp(10px,1.5vw,14px)] uppercase">
                 CHỈ CÁCH SÀI GÒN CHƯA ĐẾN 70KM, NOMIA GARDEN RETREATS LÀ KHU
                 NGHỈ DƯỠNG TUYỆT ĐẸP NẰM BÊN CẠNH HỒ TRỊ AN, NƠI ĐÂY LƯU GIỮ
                 VẺ ĐẸP HOANG SƠ CỦA THIÊN NHIÊN BAN TẶNG KẾT HỢP VỚI SỰ TINH TẾ
                 KHEO LÉO TỪ BÀN TAY CON NGƯỜI.
               </p>
 
-              <p className="font-serif italic mt-6 sm:mt-8 tracking-[0.06em] leading-8 text-[clamp(13px,1.5vw,16px)] uppercase">
+              <p className="font-serif italic mt-6 sm:mt-8 tracking-[0.06em] leading-10 text-[clamp(10px,1.5vw,14px)] uppercase">
                 LOCATED LESS THAN 70KM FROM SAIGON, NOMIA GARDEN RETREATS IS
                 A STUNNING RESORT SITUATED BESIDE TRI AN LAKE. IT PRESERVES THE
                 PRISTINE BEAUTY BESTOWED BY NATURE, COMBINED WITH THE
