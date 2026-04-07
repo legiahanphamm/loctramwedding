@@ -200,18 +200,14 @@ export default function Home() {
 
           <div className="mt-10 sm:mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
             <div className="text-center lg:text-left ">
-              <p className="font-serif tracking-[0.08em] leading-10 text-[clamp(10px,1.5vw,14px)] uppercase">
-                CHỈ CÁCH SÀI GÒN CHƯA ĐẾN 70KM, NOMIA GARDEN RETREATS LÀ KHU
-                NGHỈ DƯỠNG TUYỆT ĐẸP NẰM BÊN CẠNH HỒ TRỊ AN, NƠI ĐÂY LƯU GIỮ
-                VẺ ĐẸP HOANG SƠ CỦA THIÊN NHIÊN BAN TẶNG KẾT HỢP VỚI SỰ TINH TẾ
-                KHEO LÉO TỪ BÀN TAY CON NGƯỜI.
+              <p className="font-serif tracking-[0.08em] leading-6 text-[clamp(11px,1.5vw,14px)]">
+                Chỉ cách Sài Gòn chưa đến 70km, Nomia Garden Retreats là khu nghỉ dưỡng tuyệt đẹp nằm bên cạnh Hồ Trị An,
+                nơi đây lưu giữ vẻ đẹp hoang sơ của thiên nhiên ban tặng kết hợp với sự tinh tế khéo léo từ bàn tay con người.
               </p>
 
-              <p className="font-serif italic mt-6 sm:mt-8 tracking-[0.06em] leading-10 text-[clamp(10px,1.5vw,14px)] uppercase">
-                LOCATED LESS THAN 70KM FROM SAIGON, NOMIA GARDEN RETREATS IS
-                A STUNNING RESORT SITUATED BESIDE TRI AN LAKE. IT PRESERVES THE
-                PRISTINE BEAUTY BESTOWED BY NATURE, COMBINED WITH THE
-                REFINED CRAFTSMANSHIP OF HUMAN HANDS.
+              <p className="font-serif italic mt-6 sm:mt-8 tracking-[0.06em] leading-6 text-[clamp(11px,1.5vw,14px)]">
+                Located less than 70km from Saigon, Nomia Garden Retreats is a stunning resort situated beside Tri An Lake.
+                It preserves the pristine beauty bestowed by nature, combined with the refined craftsmanship of human hands.
               </p>
             </div>
 
