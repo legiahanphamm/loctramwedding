@@ -319,12 +319,12 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-10 sm:mt-14 mb-10 sm:mb-14 w-full max-w-5xl px-5 text-center sm:px-8 md:px-10">
-          <p className="font-serif tracking-[0.5em] sm:tracking-[0.8em] text-lg sm:text-xl font-bold">
+          <p className="font-serif tracking-[0.5em] sm:tracking-[0.8em] text-lg sm:text-lg font-bold">
             SAVE THE DATE
             <br />
             16.05.2026
           </p>
-          <div className="mx-auto mt-10 sm:mt-14 mb-2 w-20 sm:mb-6 sm:w-24">
+          <div className="mx-auto mt-10 sm:mt-14 mb-2 w-14 sm:mb-6 sm:w-10">
             <Image
               src="/logo/ĐEN.png"
               alt="Wedding logo"
